@@ -6,6 +6,7 @@ namespace NumberGenerator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("WELCOME");
             char Mainpage = '0';
         OMERFDEV:
             Console.WriteLine("Number Generator");
