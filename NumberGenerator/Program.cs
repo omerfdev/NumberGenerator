@@ -6,9 +6,10 @@ namespace NumberGenerator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("{0:r}", DateTime.Now);
             Console.WriteLine("WELCOME");
             char Mainpage = '0';
-        OMERFDEV:
+            OMERFDEV:
             Console.WriteLine("Number Generator");
             Random x = new Random();
             int number = x.Next(1, 1000000);
